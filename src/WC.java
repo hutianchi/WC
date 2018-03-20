@@ -264,7 +264,7 @@ public class WC {
 
 			       if(l) shuchu=shuchu+name+","+"行数："+lines+"\r\n";
 
-			       if(a) shuchu=shuchu+name+","+"代码行/空行/注释行："+codel+"/"+blackl+"/"+zhushil+"/"+"\r\n\r\n";
+			       if(a) shuchu=shuchu+name+","+"代码行/空行/注释行："+codel+"/"+blackl+"/"+zhushil+"\r\n\r\n";
 
 	    	   }
 	    		   try {
@@ -335,7 +335,7 @@ public class WC {
 		       }
 		       if(a)
 		       {
-		    	   String re=ssr+","+"代码行/空行/注释行："+codel+"/"+blackl+"/"+zhushil+"/"+"\r\n";
+		    	   String re=ssr+","+"代码行/空行/注释行："+codel+"/"+blackl+"/"+zhushil+"\r\n";
 		    	   out.write(re);
 		       }
 		       
